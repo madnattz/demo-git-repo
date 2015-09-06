@@ -34,4 +34,14 @@ Public Class Student ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
+    Private _Address As String
+    Public Property Address() As String
+        Get
+            Return _Address
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("Address", _Address, value)
+        End Set
+    End Property
+
 End Class
