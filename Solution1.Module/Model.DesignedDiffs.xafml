@@ -1,5 +1,25 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Solution1" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Student_ListView" Index="0" />
+          <Item Id="Teacher_ListView" Index="1" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
+    <ListView Id="Teacher_ListView">
+      <Columns>
+        <ColumnInfo Id="StudentID" Index="0" Width="99" />
+        <ColumnInfo Id="StudentName" Index="1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Address2" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
   </Views>
 </Application>
