@@ -125,6 +125,7 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\Student.vb" />
     <Compile Include="Module.Designer.vb">
       <DependentUpon>Module.vb</DependentUpon>
     </Compile>
