@@ -44,7 +44,6 @@ Public Class Student ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
-<<<<<<< HEAD
     Private _Address As String
     Public Property Address() As String
         Get
@@ -75,6 +74,4 @@ Public Class Student ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
-=======
->>>>>>> dev1
 End Class

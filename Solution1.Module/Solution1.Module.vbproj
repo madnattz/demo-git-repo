@@ -125,10 +125,7 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="BusinessObjects\Teacher.vb" />
-=======
->>>>>>> dev1
     <Compile Include="BusinessObjects\Student.vb" />
     <Compile Include="Module.Designer.vb">
       <DependentUpon>Module.vb</DependentUpon>
