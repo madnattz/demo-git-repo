@@ -2,15 +2,11 @@
 <Application Title="Solution1" Logo="ExpressAppLogo">
   <NavigationItems>
     <Items>
+      <Item Id="@d19c4468-b068-4aa7-a5fb-e2709686b4c4" ViewId="AboutInfo_DetailView" IsNewNode="True" />
       <Item Id="Default">
         <Items>
           <Item Id="Teacher_ListView" Index="0" />
           <Item Id="Student_ListView" Index="1" />
-      <Item Id="@d19c4468-b068-4aa7-a5fb-e2709686b4c4" ViewId="AboutInfo_DetailView" IsNewNode="True" />
-      <Item Id="Default">
-        <Items>
-          <Item Id="Student_ListView" Index="0" />
-          <Item Id="Teacher_ListView" Index="1" />
         </Items>
       </Item>
     </Items>
@@ -42,10 +38,6 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
-    <ListView Id="Teacher_ListView">
-      <Columns>
-        <ColumnInfo Id="StudentID" Index="0" />
-        <ColumnInfo Id="StudentName" Index="1" />
     <ListView Id="Teacher_ListView">
       <Columns>
         <ColumnInfo Id="StudentID" Index="0" Width="99" />
