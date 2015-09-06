@@ -1,10 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Solution1" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Teacher_ListView" Index="0" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
   </SchemaModules>
   <Views>
-    <ListView Id="Student_ListView">
+    <ListView Id="Student_ListView" />
+    <ListView Id="Teacher_ListView">
       <Columns>
         <ColumnInfo Id="StudentID" Index="0" />
         <ColumnInfo Id="StudentName" Index="1" />
