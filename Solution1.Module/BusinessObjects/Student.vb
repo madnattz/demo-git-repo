@@ -24,6 +24,16 @@ Public Class Student ' Specify more UI options using a declarative approach (htt
         ' Place your initialization code here (http://documentation.devexpress.com/#Xaf/CustomDocument2834).
     End Sub
 
+    Private _StudentID As String
+    Public Property StudentID() As String
+        Get
+            Return _StudentID
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("StudentID", _StudentID, value)
+        End Set
+    End Property
+
     Private _StudentName As String
     Public Property StudentName() As String
         Get
