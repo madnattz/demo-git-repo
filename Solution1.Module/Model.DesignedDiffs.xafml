@@ -14,6 +14,29 @@
     <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
   </SchemaModules>
   <Views>
+    <DetailView Id="Teacher_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Teacher" Direction="Vertical" RelativeSize="100">
+              <LayoutGroup Id="Auto15f4e02e-c998-4567-b240-9427370e7bc9" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="6.1420345489443378" IsNewNode="True">
+                <LayoutItem Id="StudentID" ViewItem="StudentID" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="Address" ViewItem="Address" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="Address" ViewItem="Address" SizeConstraintsType="Default" Index="1" RelativeSize="13.765182186234817" Removed="True" />
+              <LayoutGroup Id="Auto2466048d-4e81-4d48-8dff-3c11f662c57e" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="4.6065259117082533" IsNewNode="True">
+                <LayoutItem Id="StudentName" ViewItem="StudentName" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="Address2" ViewItem="Address2" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="StudentName" ViewItem="StudentName" SizeConstraintsType="Default" Index="1" RelativeSize="4.82897384305835" Removed="True" />
+              <LayoutItem Id="Item2" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="2" RelativeSize="89.2514395393474" IsNewNode="True" />
+              <LayoutItem Id="Address2" Removed="True" />
+              <LayoutItem Id="StudentID" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
     <ListView Id="Teacher_ListView">
       <Columns>
         <ColumnInfo Id="StudentID" Index="0" />
