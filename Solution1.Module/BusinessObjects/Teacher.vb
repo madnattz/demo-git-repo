@@ -24,23 +24,23 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         ' Place your initialization code here (http://documentation.devexpress.com/#Xaf/CustomDocument2834).
     End Sub
 
-    Private _StudentID As String
-    Public Property StudentID() As String
+    Private _TeacherID As String
+    Public Property TeacherID() As String
         Get
-            Return _StudentID
+            Return _TeacherID
         End Get
         Set(ByVal value As String)
-            SetPropertyValue("StudentID", _StudentID, value)
+            SetPropertyValue("TeacherID", _TeacherID, value)
         End Set
     End Property
 
-    Private _StudentName As String
-    Public Property StudentName() As String
+    Private _TeacherName As String
+    Public Property TeacherName() As String
         Get
-            Return _StudentName
+            Return _TeacherName
         End Get
         Set(ByVal value As String)
-            SetPropertyValue("StudentName", _StudentName, value)
+            SetPropertyValue("TeacherName", _TeacherName, value)
         End Set
     End Property
 
@@ -51,16 +51,6 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         End Get
         Set(ByVal value As String)
             SetPropertyValue("Address", _Address, value)
-        End Set
-    End Property
-
-    Private _Address2 As String
-    Public Property Address2() As String
-        Get
-            Return _Address2
-        End Get
-        Set(ByVal value As String)
-            SetPropertyValue("Address2", _Address2, value)
         End Set
     End Property
 

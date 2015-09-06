@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Teacher_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Teacher">
+              <LayoutItem Id="StudentName" ViewItem="StudentName" SizeConstraintsType="Default" Index="1" RelativeSize="4.82897384305835" Removed="True" />
+              <LayoutItem Id="Address2" Removed="True" />
+              <LayoutItem Id="StudentID" Removed="True" />
+              <LayoutGroup Id="Auto2466048d-4e81-4d48-8dff-3c11f662c57e">
+                <LayoutItem Id="Address2" ViewItem="Address2" />
+                <LayoutItem Id="StudentName" ViewItem="StudentName" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto15f4e02e-c998-4567-b240-9427370e7bc9">
+                <LayoutItem Id="StudentID" ViewItem="StudentID" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Teacher_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="StudentID" Index="0" Width="99" />
+        <ColumnInfo Id="StudentName" Index="1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Address2" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
