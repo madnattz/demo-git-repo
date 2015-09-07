@@ -74,4 +74,14 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
+    Private _SubDistrict As String
+    Public Property SubDistrict() As String
+        Get
+            Return _SubDistrict
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("SubDistrict", _SubDistrict, value)
+        End Set
+    End Property
+
 End Class
