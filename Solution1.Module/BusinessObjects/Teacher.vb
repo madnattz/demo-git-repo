@@ -64,4 +64,14 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
+    Private _Moo As String
+    Public Property Moo() As String
+        Get
+            Return _Moo
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("Moo", _Moo, value)
+        End Set
+    End Property
+
 End Class
