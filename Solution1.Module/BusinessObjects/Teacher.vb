@@ -74,4 +74,14 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
+    Private _Age As String
+    Public Property Age() As String
+        Get
+            Return _Age
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("Age", _Age, value)
+        End Set
+    End Property
+
 End Class
