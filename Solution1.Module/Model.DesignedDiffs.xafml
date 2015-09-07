@@ -2,7 +2,6 @@
 <Application Title="Solution1" Logo="ExpressAppLogo">
   <NavigationItems>
     <Items>
-      <Item Id="@d19c4468-b068-4aa7-a5fb-e2709686b4c4" ViewId="AboutInfo_DetailView" IsNewNode="True" />
       <Item Id="Default">
         <Items>
           <Item Id="Teacher_ListView" Index="0" />
