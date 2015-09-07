@@ -125,11 +125,8 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="BusinessObjects\Product.vb" />
-=======
     <Compile Include="BusinessObjects\Employee.vb" />
->>>>>>> origin/master
     <Compile Include="BusinessObjects\Teacher.vb" />
     <Compile Include="BusinessObjects\Student.vb" />
     <Compile Include="Module.Designer.vb">
