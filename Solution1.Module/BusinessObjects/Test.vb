@@ -51,7 +51,6 @@ Public Class Test ' Specify more UI options using a declarative approach (http:/
         End Set
     End Property
 
-<<<<<<< HEAD
     Private _TeacherIDBoy As String
     Public Property TeacherIDBoy() As String
         Get
@@ -62,7 +61,6 @@ Public Class Test ' Specify more UI options using a declarative approach (http:/
         End Set
     End Property
 
-=======
     Private _TeacherArm As String
     Public Property TeacherArm() As String
         Get
@@ -73,9 +71,16 @@ Public Class Test ' Specify more UI options using a declarative approach (http:/
         End Set
     End Property
 
-    '
-    '
->>>>>>> origin/master
+    Private _TeacherIDNatt As String
+    Public Property TeacherIDNatt() As String
+        Get
+            Return _TeacherIDNatt
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("TeacherIDNatt", _TeacherIDNatt, value)
+        End Set
+    End Property
+
     <Action(Caption:="My UI Action", ConfirmationMessage:="Are you sure?", ImageName:="Attention", AutoCommit:=True)> _
     Public Sub ActionMethod()
         ' Trigger a custom business logic for the current record in the UI (http://documentation.devexpress.com/#Xaf/CustomDocument2619).
