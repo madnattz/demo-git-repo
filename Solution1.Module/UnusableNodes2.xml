@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Teacher_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Teacher">
+              <LayoutItem Id="TeacherID" SizeConstraintsType="Default" RelativeSize="6.4386317907444672" />
+              <LayoutItem Id="TeacherName" SizeConstraintsType="Default" RelativeSize="4.82897384305835" />
+              <LayoutItem Id="Address" Removed="True" />
+              <LayoutItem Id="Street" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
