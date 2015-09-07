@@ -41,6 +41,17 @@ Public Class Test ' Specify more UI options using a declarative approach (http:/
         End Set
     End Property
 
+    Private _TeacherID As String
+    Public Property TeacherID() As String
+        Get
+            Return _TeacherID
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("TeacherID", _TeacherID, value)
+        End Set
+    End Property
+
+
     '<Action(Caption:="My UI Action", ConfirmationMessage:="Are you sure?", ImageName:="Attention", AutoCommit:=True)> _
     'Public Sub ActionMethod()
     '    ' Trigger a custom business logic for the current record in the UI (http://documentation.devexpress.com/#Xaf/CustomDocument2619).
