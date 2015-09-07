@@ -94,6 +94,16 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
         End Set
     End Property
 
+    Private _District As String
+    Public Property District() As String
+        Get
+            Return _District
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("District", _District, value)
+        End Set
+    End Property
+
     Private _Province As String
     Public Property Province() As String
         Get
@@ -103,5 +113,7 @@ Public Class Teacher ' Specify more UI options using a declarative approach (htt
             SetPropertyValue("Province", _Province, value)
         End Set
     End Property
+
+
 
 End Class
