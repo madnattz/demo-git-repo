@@ -51,6 +51,16 @@ Public Class Test ' Specify more UI options using a declarative approach (http:/
         End Set
     End Property
 
+    Private _TeacherArm As String
+    Public Property TeacherArm() As String
+        Get
+            Return _TeacherArm
+        End Get
+        Set(ByVal value As String)
+            SetPropertyValue("TeacherArm", _TeacherArm, value)
+        End Set
+    End Property
+
     Private _TeacherIDNatt As String
     Public Property TeacherIDNatt() As String
         Get
