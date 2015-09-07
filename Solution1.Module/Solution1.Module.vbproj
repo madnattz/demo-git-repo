@@ -129,6 +129,7 @@
     <Compile Include="BusinessObjects\Employee.vb" />
     <Compile Include="BusinessObjects\Teacher.vb" />
     <Compile Include="BusinessObjects\Student.vb" />
+    <Compile Include="BusinessObjects\Test.vb" />
     <Compile Include="Module.Designer.vb">
       <DependentUpon>Module.vb</DependentUpon>
     </Compile>

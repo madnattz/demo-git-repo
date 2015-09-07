@@ -13,4 +13,21 @@
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
   </SchemaModules>
+  <Views>
+    <DetailView Id="Test_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Test" RelativeSize="100" Caption="My display name">
+              <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Item1" IsNewNode="True">
+                <LayoutItem Id="PersistentProperty" ViewItem="PersistentProperty" SizeConstraintsType="Default" Index="0" RelativeSize="7.0175438596491224" IsNewNode="True" />
+                <LayoutItem Id="Item2" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="92.982456140350877" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="PersistentProperty" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
 </Application>
